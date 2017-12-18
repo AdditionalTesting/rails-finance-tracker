@@ -5,6 +5,10 @@ class UsersController < ApplicationController
 
   end
 
+  def my_friends
+
+  end
+
   def search
     if params[:search_param].blank?
       flash.now[:danger] = "You have entered an empty search string"
